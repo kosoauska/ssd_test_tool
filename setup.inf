@@ -1,0 +1,9 @@
+disknum  # 0
+serial   # SMXTL7BN2RXA10002         
+firmware # S0424A0
+module   # SMXTL7BN-256G
+sataType # SATA/600|SATA/600    
+letter   # L
+diskpart # X
+hdtest   # 1 
+capacity # 256

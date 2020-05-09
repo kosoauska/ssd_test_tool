@@ -1,0 +1,1282 @@
+2020-01-16 17:53:24:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-01-16 17:53:24:  device[00]: ScsiStatus:02h
+2020-01-16 17:53:24:  设备0: sn=6&672C205&0&3
+ 
+2020-01-16 17:53:26:  设备0: first step
+ 
+2020-01-16 17:53:26:  设备0: loadCode
+ 
+2020-01-16 17:53:26:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-01-16 17:53:26:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-01-16 17:53:26:  device[00]: channel_connect_status:
+	00 00
+2020-01-16 17:53:26:  device[00]: total_valid_ce_count = 0
+2020-01-16 17:53:26:  设备0: auto DetectFlash
+ 
+2020-01-16 17:53:26:  设备0: flash id = 
+ 
+2020-01-16 17:53:26:  设备0: initConfig
+ 
+2020-01-16 17:53:26:  设备0: could not find firmware E:\project\6802平台\mptool\binary\fw*.bin
+ 
+2020-01-16 17:53:26:  设备0: firmware path is .
+ 
+2020-01-16 17:53:26:  设备0: could not find firmware
+ 
+2020-01-16 17:53:26:  设备0 量产失败，错误码（3）。
+2020-01-17 09:14:08:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-01-17 09:14:08:  device[00]: ScsiStatus:02h
+2020-01-17 09:14:08:  设备0: sn=6&672C205&0&3
+ 
+2020-01-17 09:14:10:  设备0: first step
+ 
+2020-01-17 09:14:10:  设备0: loadCode
+ 
+2020-01-17 09:14:10:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-01-17 09:14:11:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-01-17 09:14:11:  device[00]: channel_connect_status:
+	00 01
+2020-01-17 09:14:11:  device[00]: total_valid_ce_count = 1
+2020-01-17 09:14:11:  device[00]: ce = 0, channel=1,
+2020-01-17 09:14:11:  device[00]: flash_type = TOSHIBA-TC58TEG6DDKTA00   
+2020-01-17 09:14:11:  设备0: auto DetectFlash
+ 
+2020-01-17 09:14:11:  设备0: flash id = TOSHIBA-TC58TEG6DDKTA00   
+ 
+2020-01-17 09:14:11:  设备0: initConfig
+ 
+2020-01-17 09:14:11:  设备0: could not find firmware E:\project\6802平台\mptool\binary\fw*.bin
+ 
+2020-01-17 09:14:11:  设备0: firmware path is .
+ 
+2020-01-17 09:14:11:  设备0: could not find firmware
+ 
+2020-01-17 09:14:11:  设备0 量产失败，错误码（3）。
+2020-01-17 09:14:36:  设备0: first step
+ 
+2020-01-17 09:14:36:  设备0: loadCode
+ 
+2020-01-17 09:14:36:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-01-17 09:14:36:  设备0 量产失败，错误码（2）。
+2020-01-17 09:14:38:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-01-17 09:14:38:  device[00]: ScsiStatus:02h
+2020-01-17 09:14:43:  设备0: sn=6&672C205&0&3
+ 
+2020-01-17 09:15:08:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-01-17 09:15:09:  IO_in DeviceIoControl failed with error 1167: 设备没有连接。
+2020-01-17 09:15:10:  IO_in DeviceIoControl failed with error 1167: 设备没有连接。
+2020-01-17 09:16:58:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-01-17 09:16:59:  IO_in DeviceIoControl failed with error 1167: 设备没有连接。
+2020-01-17 09:17:00:  IO_in DeviceIoControl failed with error 1167: 设备没有连接。
+2020-01-17 09:19:18:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-01-17 09:19:18:  device[00]: ScsiStatus:02h
+2020-01-17 09:19:18:  设备0: sn=6&672C205&0&3
+ 
+2020-01-17 09:19:20:  设备0: first step
+ 
+2020-01-17 09:19:20:  设备0: loadCode
+ 
+2020-01-17 09:19:29:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-01-17 09:19:29:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-01-17 09:19:29:  device[00]: channel_connect_status:
+	00 01
+2020-01-17 09:19:29:  device[00]: total_valid_ce_count = 1
+2020-01-17 09:19:29:  device[00]: ce = 0, channel=1,
+2020-01-17 09:19:29:  device[00]: flash_type = TOSHIBA-TC58TEG6DDKTA00   
+2020-01-17 09:19:29:  设备0: auto DetectFlash
+ 
+2020-01-17 09:19:29:  设备0: flash id = TOSHIBA-TC58TEG6DDKTA00   
+ 
+2020-01-17 09:19:29:  设备0: initConfig
+ 
+2020-01-17 09:19:29:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_toshiba_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-01-17 09:19:30:  device[00]: GetAllBadBlockCount 0.
+2020-01-17 09:19:30:  device[00]: gen_firmware ok.
+2020-01-17 09:19:30:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 1024.
+2020-01-17 09:19:30:  device[00]: m_block_cnt_contain_badblock 2048.
+2020-01-17 09:19:30:  设备0: scan_BadBlk
+ 
+2020-01-17 09:19:30:  device[00]: ScsiStatus:02h
+2020-01-17 09:19:30:  device[00]: FlashPageRead IO error
+2020-01-17 09:19:30:  device[00]: ScsiStatus:02h
+2020-01-17 09:19:30:  device[00]: FlashPageRead IO error
+2020-01-17 09:19:30:  device[00]: ScsiStatus:02h
+2020-01-17 09:19:30:  device[00]: FlashPageRead IO error
+2020-01-17 09:19:30:  device[00]: ScsiStatus:02h
+2020-01-17 09:19:30:  device[00]: FlashPageRead IO error
+2020-01-17 09:19:30:  设备0: factory cnt 0,new cnt 0
+ 
+2020-01-17 09:19:30:  设备0: scan_BadBlk failed
+ 
+2020-01-17 09:19:30:  设备0: eraseFlash
+ 
+2020-01-17 09:19:40:  设备0: part_mp 0
+ 
+2020-01-17 09:19:40:  设备0: NORMAL
+ 
+2020-01-17 09:19:40:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_toshiba_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-01-17 09:19:40:  device[00]: GetAllBadBlockCount 13.
+2020-01-17 09:19:42:  设备0: WriteFw ok
+ 
+2020-01-17 09:19:42:  设备0: WriteBadBlockTable cnt 13 
+ 
+2020-01-17 09:19:42:  设备0: Write first BadBlockTable blk index  4 
+ 
+2020-01-17 09:19:42:  设备0: WriteBadBlockTable blk index  8 
+ 
+2020-01-17 09:19:42:  设备0: loadFw flag=0 
+ 
+2020-01-17 09:19:48:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-01-17 09:19:48:  device[00]: GetAllBadBlockCount 13.
+2020-01-17 09:19:48:  设备0: SN aaabbb009, len =20.
+ 
+2020-01-17 09:19:48:  设备0: SetSN ok:
+ 
+2020-01-17 09:19:48:  设备0: ooook
+ 
+2020-01-17 09:19:48:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-01-17 09:19:48:  设备0 量产成功。
+2020-01-17 10:55:49:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-01-17 10:55:49:  device[00]: ScsiStatus:02h
+2020-01-17 10:55:49:  设备0: sn=6&672C205&0&3
+ 
+2020-01-17 10:55:56:  设备0: first step
+ 
+2020-01-17 10:55:56:  设备0: loadCode
+ 
+2020-01-17 10:56:01:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-01-17 10:56:01:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-01-17 10:56:01:  device[00]: channel_connect_status:
+	00 01
+2020-01-17 10:56:01:  device[00]: total_valid_ce_count = 1
+2020-01-17 10:56:01:  device[00]: ce = 0, channel=1,
+2020-01-17 10:56:01:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-01-17 10:56:01:  设备0: auto DetectFlash
+ 
+2020-01-17 10:56:01:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-01-17 10:56:01:  设备0: initConfig
+ 
+2020-01-17 10:56:01:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-01-17 10:56:01:  device[00]: GetAllBadBlockCount 0.
+2020-01-17 10:56:01:  device[00]: gen_firmware ok.
+2020-01-17 10:56:01:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-01-17 10:56:01:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-01-17 10:56:01:  设备0: scan_BadBlk
+ 
+2020-01-17 10:56:01:  device[00]: page 1,count 27
+2020-01-17 10:56:10:  设备0: old badblock table at 4
+ 
+2020-01-17 10:56:10:  设备0: factory cnt 27,new cnt 0
+ 
+2020-01-17 10:56:10:  设备0: eraseFlash
+ 
+2020-01-17 10:56:26:  设备0: part_mp 0
+ 
+2020-01-17 10:56:26:  设备0: NORMAL
+ 
+2020-01-17 10:56:26:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-01-17 10:56:26:  device[00]: GetAllBadBlockCount 27.
+2020-01-17 10:56:29:  设备0: WriteFw ok
+ 
+2020-01-17 10:56:29:  设备0: WriteBadBlockTable cnt 27 
+ 
+2020-01-17 10:56:29:  设备0: Write first BadBlockTable blk index  8 
+ 
+2020-01-17 10:56:29:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-01-17 10:56:29:  设备0: loadFw flag=0 
+ 
+2020-01-17 10:56:34:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-01-17 10:56:34:  device[00]: GetAllBadBlockCount 27.
+2020-01-17 10:56:34:  设备0: SN aaabbb010, len =20.
+ 
+2020-01-17 10:56:34:  设备0: SetSN ok:
+ 
+2020-01-17 10:56:34:  设备0: ooook
+ 
+2020-01-17 10:56:34:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-01-17 10:56:34:  设备0 量产成功。
+2020-04-10 11:48:29:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-10 11:48:29:  设备0: sn=20180614015
+ 
+2020-04-10 11:48:39:  设备0: first step
+ 
+2020-04-10 11:48:39:  设备0: loadCode
+ 
+2020-04-10 11:48:39:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 11:48:40:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-10 11:48:40:  device[00]: channel_connect_status:
+	00 01
+2020-04-10 11:48:40:  device[00]: total_valid_ce_count = 1
+2020-04-10 11:48:40:  device[00]: ce = 0, channel=1,
+2020-04-10 11:48:40:  device[00]: flash_type = MICRON-MT29F32G08CBADAWP 
+2020-04-10 11:48:40:  设备0: auto DetectFlash
+ 
+2020-04-10 11:48:40:  设备0: flash id = MICRON-MT29F32G08CBADAWP 
+ 
+2020-04-10 11:48:40:  设备0: initConfig
+ 
+2020-04-10 11:48:40:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 11:48:40:  device[00]: GetAllBadBlockCount 0.
+2020-04-10 11:48:40:  device[00]: gen_firmware ok.
+2020-04-10 11:48:40:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 1024.
+2020-04-10 11:48:40:  device[00]: m_block_cnt_contain_badblock 2048.
+2020-04-10 11:48:40:  设备0: scan_BadBlk
+ 
+2020-04-10 11:48:40:  device[00]: page 1,count 0
+2020-04-10 11:48:40:  device[00]: page 5,count 2
+2020-04-10 11:48:47:  device[00]: page 1,count 0
+2020-04-10 11:48:47:  device[00]: page 5,count 2
+2020-04-10 11:48:54:  设备0: old badblock table at 4
+ 
+2020-04-10 11:48:54:  设备0: old badblock table at 8
+ 
+2020-04-10 11:48:54:  设备0: factory cnt 0,new cnt 2
+ 
+2020-04-10 11:48:54:  设备0: eraseFlash
+ 
+2020-04-10 11:49:00:  设备0: part_mp 0
+ 
+2020-04-10 11:49:00:  设备0: NORMAL
+ 
+2020-04-10 11:49:00:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 11:49:00:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 11:49:03:  设备0: WriteFw ok
+ 
+2020-04-10 11:49:03:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-10 11:49:03:  设备0: Write first BadBlockTable blk index  12 
+ 
+2020-04-10 11:49:03:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-10 11:49:03:  设备0: loadFw flag=0 
+ 
+2020-04-10 11:49:08:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 11:49:08:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 11:49:09:  设备0: SN aaabbb011, len =20.
+ 
+2020-04-10 11:49:09:  设备0: SetSN ok:
+ 
+2020-04-10 11:49:09:  设备0: ooook
+ 
+2020-04-10 11:49:09:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-04-10 11:49:09:  设备0 量产成功。
+2020-04-10 11:50:14:  设备0: first step
+ 
+2020-04-10 11:50:14:  设备0: loadCode
+ 
+2020-04-10 11:50:14:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 11:50:15:  设备0: doEraseFW
+ 
+2020-04-10 11:50:16:  设备0: ooook
+ 
+2020-04-10 11:50:16:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-04-10 11:50:16:  设备0 量产成功。
+2020-04-10 11:51:41:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-10 11:51:41:  device[00]: ScsiStatus:02h
+2020-04-10 11:51:41:  设备0: sn=6&672C205&0&4
+ 
+2020-04-10 11:51:42:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-10 11:51:42:  device[00]: ScsiStatus:02h
+2020-04-10 11:51:42:  设备0: sn=6&672C205&0&4
+ 
+2020-04-10 11:51:43:  设备0: first step
+ 
+2020-04-10 11:51:43:  设备0: loadCode
+ 
+2020-04-10 11:51:55:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 11:51:55:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-10 11:51:55:  device[00]: channel_connect_status:
+	00 01
+2020-04-10 11:51:55:  device[00]: total_valid_ce_count = 1
+2020-04-10 11:51:55:  device[00]: ce = 0, channel=1,
+2020-04-10 11:51:55:  device[00]: flash_type = MICRON-MT29F32G08CBADAWP 
+2020-04-10 11:51:55:  设备0: auto DetectFlash
+ 
+2020-04-10 11:51:55:  设备0: flash id = MICRON-MT29F32G08CBADAWP 
+ 
+2020-04-10 11:51:55:  设备0: initConfig
+ 
+2020-04-10 11:51:55:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 11:51:56:  device[00]: GetAllBadBlockCount 0.
+2020-04-10 11:51:56:  device[00]: gen_firmware ok.
+2020-04-10 11:51:56:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 1024.
+2020-04-10 11:51:56:  device[00]: m_block_cnt_contain_badblock 2048.
+2020-04-10 11:51:56:  设备0: scan_BadBlk
+ 
+2020-04-10 11:51:56:  设备0: factory cnt 0,new cnt 0
+ 
+2020-04-10 11:51:56:  设备0: scan_BadBlk failed
+ 
+2020-04-10 11:51:56:  设备0: eraseFlash
+ 
+2020-04-10 11:52:03:  设备0: part_mp 0
+ 
+2020-04-10 11:52:03:  设备0: NORMAL
+ 
+2020-04-10 11:52:03:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 11:52:03:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 11:52:05:  设备0: WriteFw ok
+ 
+2020-04-10 11:52:05:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-10 11:52:05:  设备0: Write first BadBlockTable blk index  4 
+ 
+2020-04-10 11:52:06:  设备0: WriteBadBlockTable blk index  8 
+ 
+2020-04-10 11:52:06:  设备0: loadFw flag=0 
+ 
+2020-04-10 11:52:11:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 11:52:11:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 11:52:11:  设备0: SN aaabbb012, len =20.
+ 
+2020-04-10 11:52:11:  设备0: SetSN ok:
+ 
+2020-04-10 11:52:11:  设备0: ooook
+ 
+2020-04-10 11:52:11:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-04-10 11:52:11:  设备0 量产成功。
+2020-04-10 11:56:27:  设备0: first step
+ 
+2020-04-10 11:56:27:  设备0: loadCode
+ 
+2020-04-10 11:56:27:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 11:56:27:  设备0: doEraseFW
+ 
+2020-04-10 11:56:29:  设备0: ooook
+ 
+2020-04-10 11:56:29:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-04-10 11:56:29:  设备0 量产成功。
+2020-04-10 12:28:32:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-10 12:28:32:  设备0: sn=01030017
+ 
+2020-04-10 12:28:38:  设备0: first step
+ 
+2020-04-10 12:28:38:  设备0: loadCode
+ 
+2020-04-10 12:28:55:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 12:28:55:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-10 12:28:55:  device[00]: channel_connect_status:
+	00 01
+2020-04-10 12:28:55:  device[00]: total_valid_ce_count = 1
+2020-04-10 12:28:55:  device[00]: ce = 0, channel=1,
+2020-04-10 12:28:55:  device[00]: flash_type = MICRON-MT29F32G08CBADAWP 
+2020-04-10 12:28:55:  设备0: auto DetectFlash
+ 
+2020-04-10 12:28:55:  设备0: flash id = MICRON-MT29F32G08CBADAWP 
+ 
+2020-04-10 12:28:55:  设备0: initConfig
+ 
+2020-04-10 12:28:55:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 12:28:55:  device[00]: GetAllBadBlockCount 0.
+2020-04-10 12:28:55:  device[00]: gen_firmware ok.
+2020-04-10 12:28:55:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 1024.
+2020-04-10 12:28:55:  device[00]: m_block_cnt_contain_badblock 2048.
+2020-04-10 12:28:55:  设备0: scan_BadBlk
+ 
+2020-04-10 12:28:55:  device[00]: page 1,count 0
+2020-04-10 12:28:55:  device[00]: page 5,count 2
+2020-04-10 12:29:02:  device[00]: page 1,count 0
+2020-04-10 12:29:02:  device[00]: page 5,count 2
+2020-04-10 12:29:09:  设备0: old badblock table at 4
+ 
+2020-04-10 12:29:09:  设备0: old badblock table at 12
+ 
+2020-04-10 12:29:09:  设备0: factory cnt 0,new cnt 2
+ 
+2020-04-10 12:29:09:  设备0: eraseFlash
+ 
+2020-04-10 12:29:16:  设备0: part_mp 0
+ 
+2020-04-10 12:29:16:  设备0: NORMAL
+ 
+2020-04-10 12:29:16:  设备0: firmware path is E:\project\6802平台\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 12:29:16:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 12:29:18:  设备0: WriteFw ok
+ 
+2020-04-10 12:29:18:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-10 12:29:18:  设备0: Write first BadBlockTable blk index  8 
+ 
+2020-04-10 12:29:18:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-10 12:29:18:  设备0: loadFw flag=0 
+ 
+2020-04-10 12:29:23:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 12:29:23:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 12:29:24:  设备0: SN aaabbb013, len =20.
+ 
+2020-04-10 12:29:24:  设备0: SetSN ok:
+ 
+2020-04-10 12:29:24:  设备0: ooook
+ 
+2020-04-10 12:29:24:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-04-10 12:29:24:  设备0 量产成功。
+2020-04-10 14:27:51:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-10 14:27:51:  设备0: sn=AAABBB011
+ 
+2020-04-10 14:29:57:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-10 14:29:57:  设备0: sn=AAABBB011
+ 
+2020-04-10 14:30:05:  设备0: first step
+ 
+2020-04-10 14:30:05:  设备0: loadCode
+ 
+2020-04-10 14:30:05:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:30:05:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-10 14:30:05:  device[00]: channel_connect_status:
+	00 01
+2020-04-10 14:30:05:  device[00]: total_valid_ce_count = 1
+2020-04-10 14:30:05:  device[00]: ce = 0, channel=1,
+2020-04-10 14:30:05:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-10 14:30:05:  设备0: auto DetectFlash
+ 
+2020-04-10 14:30:05:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-10 14:30:05:  设备0: initConfig
+ 
+2020-04-10 14:30:05:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:30:05:  device[00]: GetAllBadBlockCount 0.
+2020-04-10 14:30:05:  device[00]: gen_firmware ok.
+2020-04-10 14:30:05:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-10 14:30:05:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-10 14:30:05:  设备0: scan_BadBlk
+ 
+2020-04-10 14:30:05:  device[00]: page 1,count 6
+2020-04-10 14:30:05:  device[00]: page 2,count 0
+2020-04-10 14:30:13:  device[00]: page 1,count 6
+2020-04-10 14:30:13:  device[00]: page 2,count 0
+2020-04-10 14:30:20:  device[00]: page 1,count 6
+2020-04-10 14:30:20:  device[00]: page 2,count 0
+2020-04-10 14:30:27:  设备0: old badblock table at 4
+ 
+2020-04-10 14:30:27:  设备0: old badblock table at 8
+ 
+2020-04-10 14:30:27:  设备0: old badblock table at 12
+ 
+2020-04-10 14:30:27:  设备0: factory cnt 6,new cnt 0
+ 
+2020-04-10 14:30:27:  设备0: eraseFlash
+ 
+2020-04-10 14:30:41:  设备0: part_mp 0
+ 
+2020-04-10 14:30:41:  设备0: NORMAL
+ 
+2020-04-10 14:30:41:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:30:41:  device[00]: GetAllBadBlockCount 6.
+2020-04-10 14:30:44:  设备0: WriteFw ok
+ 
+2020-04-10 14:30:44:  设备0: WriteBadBlockTable cnt 6 
+ 
+2020-04-10 14:30:44:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-10 14:30:44:  设备0: loadFw flag=0 
+ 
+2020-04-10 14:30:49:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:30:49:  device[00]: GetAllBadBlockCount 6.
+2020-04-10 14:30:49:  设备0: step 2
+ 
+2020-04-10 14:30:52:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:30:52:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:30:52:  device[00]: GetAllBadBlockCount 6.
+2020-04-10 14:30:52:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-10 14:30:55:  设备0: SN aaabbb014, len =20.
+ 
+2020-04-10 14:30:55:  设备0: SetSN ok:
+ 
+2020-04-10 14:30:55:  设备0: ooook
+ 
+2020-04-10 14:30:55:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-04-10 14:30:55:  设备0 量产成功。
+2020-04-10 14:34:24:  设备0: first step
+ 
+2020-04-10 14:34:24:  设备0: loadCode
+ 
+2020-04-10 14:34:24:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:34:24:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-10 14:34:24:  device[00]: channel_connect_status:
+	00 01
+2020-04-10 14:34:24:  device[00]: total_valid_ce_count = 1
+2020-04-10 14:34:24:  device[00]: ce = 0, channel=1,
+2020-04-10 14:34:24:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-10 14:34:24:  设备0: auto DetectFlash
+ 
+2020-04-10 14:34:24:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-10 14:34:24:  设备0: initConfig
+ 
+2020-04-10 14:34:24:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:34:24:  device[00]: GetAllBadBlockCount 0.
+2020-04-10 14:34:24:  device[00]: gen_firmware ok.
+2020-04-10 14:34:24:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-10 14:34:24:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-10 14:34:24:  设备0: scan_BadBlk
+ 
+2020-04-10 14:34:24:  device[00]: page 1,count 6
+2020-04-10 14:34:31:  设备0: old badblock table at 4
+ 
+2020-04-10 14:34:31:  设备0: factory cnt 6,new cnt 0
+ 
+2020-04-10 14:34:31:  设备0: eraseFlash
+ 
+2020-04-10 14:34:46:  设备0: part_mp 0
+ 
+2020-04-10 14:34:46:  设备0: NORMAL
+ 
+2020-04-10 14:34:46:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:34:46:  device[00]: GetAllBadBlockCount 6.
+2020-04-10 14:34:48:  设备0: WriteFw ok
+ 
+2020-04-10 14:34:48:  设备0: WriteBadBlockTable cnt 6 
+ 
+2020-04-10 14:34:48:  设备0: Write first BadBlockTable blk index  8 
+ 
+2020-04-10 14:34:48:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-10 14:34:49:  设备0: loadFw flag=0 
+ 
+2020-04-10 14:34:54:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:34:54:  device[00]: GetAllBadBlockCount 6.
+2020-04-10 14:35:00:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:35:04:  device[00]: IOCTL_DISK_GET_DRIVE_GEOMETRY 15165360
+2020-04-10 14:35:07:  设备0:  G:\  /fs:fat32,/v:测试盘,media 11,quick 1
+ 
+2020-04-10 14:35:13:  设备0: step 2
+ 
+2020-04-10 14:35:16:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:35:16:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:35:16:  device[00]: GetAllBadBlockCount 6.
+2020-04-10 14:35:16:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-10 14:35:20:  设备0: SN aaabbb015, len =20.
+ 
+2020-04-10 14:35:20:  设备0: SetSN ok:
+ 
+2020-04-10 14:35:20:  设备0: ooook
+ 
+2020-04-10 14:35:20:  设备0 量产成功。
+2020-04-10 14:35:40:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-10 14:35:40:  设备0: sn=AAABBB015
+ 
+2020-04-10 14:47:02:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-10 14:47:02:  设备0: sn=0103039819
+ 
+2020-04-10 14:47:07:  设备0: first step
+ 
+2020-04-10 14:47:07:  设备0: loadCode
+ 
+2020-04-10 14:47:22:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:47:22:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-10 14:47:22:  device[00]: channel_connect_status:
+	00 01
+2020-04-10 14:47:22:  device[00]: total_valid_ce_count = 1
+2020-04-10 14:47:22:  device[00]: ce = 0, channel=1,
+2020-04-10 14:47:22:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-10 14:47:22:  设备0: auto DetectFlash
+ 
+2020-04-10 14:47:22:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-10 14:47:22:  设备0: initConfig
+ 
+2020-04-10 14:47:22:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:47:22:  device[00]: GetAllBadBlockCount 0.
+2020-04-10 14:47:22:  device[00]: gen_firmware ok.
+2020-04-10 14:47:22:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-10 14:47:22:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-10 14:47:22:  设备0: scan_BadBlk
+ 
+2020-04-10 14:47:22:  device[00]: page 1,count 2
+2020-04-10 14:47:29:  device[00]: page 1,count 2
+2020-04-10 14:47:36:  设备0: old badblock table at 4
+ 
+2020-04-10 14:47:36:  设备0: old badblock table at 8
+ 
+2020-04-10 14:47:36:  设备0: factory cnt 2,new cnt 0
+ 
+2020-04-10 14:47:36:  设备0: eraseFlash
+ 
+2020-04-10 14:47:51:  设备0: part_mp 0
+ 
+2020-04-10 14:47:51:  设备0: NORMAL
+ 
+2020-04-10 14:47:51:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:47:51:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 14:47:54:  设备0: WriteFw ok
+ 
+2020-04-10 14:47:54:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-10 14:47:54:  设备0: Write first BadBlockTable blk index  12 
+ 
+2020-04-10 14:47:54:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-10 14:47:54:  设备0: loadFw flag=0 
+ 
+2020-04-10 14:47:59:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:47:59:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 14:48:06:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:48:10:  device[00]: IOCTL_DISK_GET_DRIVE_GEOMETRY 15181425
+2020-04-10 14:48:13:  设备0:  G:\  /fs:fat32,/v:测试盘,media 11,quick 1
+ 
+2020-04-10 14:48:19:  设备0: step 2
+ 
+2020-04-10 14:48:22:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-10 14:48:22:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-10 14:48:22:  device[00]: GetAllBadBlockCount 2.
+2020-04-10 14:48:22:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-10 14:48:25:  设备0: SN aaabbb016, len =20.
+ 
+2020-04-10 14:48:25:  设备0: SetSN ok:
+ 
+2020-04-10 14:48:25:  设备0: ooook
+ 
+2020-04-10 14:48:26:  设备0 量产成功。
+2020-04-21 11:19:44:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-21 11:19:44:  设备0: sn=AAABBB016
+ 
+2020-04-21 11:19:46:  设备0: first step
+ 
+2020-04-21 11:19:46:  设备0: loadCode
+ 
+2020-04-21 11:19:46:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-21 11:19:46:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-21 11:19:46:  device[00]: channel_connect_status:
+	00 01
+2020-04-21 11:19:46:  device[00]: total_valid_ce_count = 1
+2020-04-21 11:19:46:  device[00]: ce = 0, channel=1,
+2020-04-21 11:19:46:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-21 11:19:46:  设备0: auto DetectFlash
+ 
+2020-04-21 11:19:46:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-21 11:19:46:  设备0: initConfig
+ 
+2020-04-21 11:19:46:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-21 11:19:46:  device[00]: GetAllBadBlockCount 0.
+2020-04-21 11:19:46:  device[00]: gen_firmware ok.
+2020-04-21 11:19:46:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-21 11:19:46:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-21 11:19:46:  设备0: scan_BadBlk
+ 
+2020-04-21 11:19:46:  device[00]: page 1,count 2
+2020-04-21 11:19:53:  device[00]: page 1,count 2
+2020-04-21 11:20:01:  设备0: old badblock table at 4
+ 
+2020-04-21 11:20:01:  设备0: old badblock table at 12
+ 
+2020-04-21 11:20:01:  设备0: factory cnt 2,new cnt 0
+ 
+2020-04-21 11:20:01:  设备0: eraseFlash
+ 
+2020-04-21 11:20:18:  设备0: part_mp 0
+ 
+2020-04-21 11:20:18:  设备0: NORMAL
+ 
+2020-04-21 11:20:18:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-21 11:20:18:  device[00]: GetAllBadBlockCount 2.
+2020-04-21 11:20:21:  设备0: WriteFw ok
+ 
+2020-04-21 11:20:21:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-21 11:20:21:  设备0: Write first BadBlockTable blk index  8 
+ 
+2020-04-21 11:20:21:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-21 11:20:21:  设备0: loadFw flag=0 
+ 
+2020-04-21 11:20:26:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-21 11:20:26:  device[00]: GetAllBadBlockCount 2.
+2020-04-21 11:20:32:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-21 11:20:36:  device[00]: IOCTL_DISK_GET_DRIVE_GEOMETRY 15181425
+2020-04-21 11:20:39:  设备0:  G:\  /fs:fat32,/v:测试盘,media 11,quick 1
+ 
+2020-04-21 11:20:46:  设备0: step 2
+ 
+2020-04-21 11:20:49:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2019_12_27_01.bin.
+ 
+2020-04-21 11:20:49:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-21 11:20:49:  device[00]: GetAllBadBlockCount 2.
+2020-04-21 11:20:49:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-21 11:20:52:  设备0: SN aaabbb017, len =20.
+ 
+2020-04-21 11:20:52:  设备0: SetSN ok:
+ 
+2020-04-21 11:20:52:  设备0: ooook
+ 
+2020-04-21 11:20:52:  设备0 量产成功。
+2020-04-21 11:21:26:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-21 11:21:26:  设备0: sn=AAABBB017
+ 
+2020-04-21 11:23:49:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-21 11:23:49:  设备0: sn=AAABBB017
+ 
+2020-04-21 11:25:37:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-21 11:25:37:  设备0: sn=AAABBB017
+ 
+2020-04-21 11:25:41:  设备0: first step
+ 
+2020-04-21 11:25:41:  设备0: loadCode
+ 
+2020-04-21 11:25:41:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-21 11:25:41:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-21 11:25:41:  device[00]: channel_connect_status:
+	00 01
+2020-04-21 11:25:41:  device[00]: total_valid_ce_count = 1
+2020-04-21 11:25:41:  device[00]: ce = 0, channel=1,
+2020-04-21 11:25:41:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-21 11:25:41:  设备0: auto DetectFlash
+ 
+2020-04-21 11:25:41:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-21 11:25:41:  设备0: initConfig
+ 
+2020-04-21 11:25:41:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-21 11:25:41:  device[00]: GetAllBadBlockCount 0.
+2020-04-21 11:25:41:  device[00]: gen_firmware ok.
+2020-04-21 11:25:41:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-21 11:25:41:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-21 11:25:41:  设备0: scan_BadBlk
+ 
+2020-04-21 11:25:42:  device[00]: page 1,count 2
+2020-04-21 11:25:49:  device[00]: page 1,count 2
+2020-04-21 11:25:56:  设备0: old badblock table at 4
+ 
+2020-04-21 11:25:56:  设备0: old badblock table at 8
+ 
+2020-04-21 11:25:56:  设备0: factory cnt 2,new cnt 0
+ 
+2020-04-21 11:25:56:  设备0: eraseFlash
+ 
+2020-04-21 11:26:11:  设备0: part_mp 0
+ 
+2020-04-21 11:26:11:  设备0: NORMAL
+ 
+2020-04-21 11:26:11:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-21 11:26:11:  device[00]: GetAllBadBlockCount 2.
+2020-04-21 11:26:14:  设备0: WriteFw ok
+ 
+2020-04-21 11:26:14:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-21 11:26:14:  设备0: Write first BadBlockTable blk index  12 
+ 
+2020-04-21 11:26:14:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-21 11:26:14:  设备0: loadFw flag=0 
+ 
+2020-04-21 11:26:19:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-21 11:26:19:  device[00]: GetAllBadBlockCount 2.
+2020-04-21 11:26:25:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-21 11:26:29:  device[00]: IOCTL_DISK_GET_DRIVE_GEOMETRY 15181425
+2020-04-21 11:26:33:  设备0:  G:\  /fs:fat32,/v:测试盘,media 11,quick 1
+ 
+2020-04-21 11:26:39:  设备0: step 2
+ 
+2020-04-21 11:26:42:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-21 11:26:42:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-21 11:26:42:  device[00]: GetAllBadBlockCount 2.
+2020-04-21 11:26:42:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-21 11:26:46:  设备0: SN aaabbb018, len =20.
+ 
+2020-04-21 11:26:46:  设备0: SetSN ok:
+ 
+2020-04-21 11:26:46:  设备0: ooook
+ 
+2020-04-21 11:26:46:  设备0 量产成功。
+2020-04-21 11:27:13:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-21 11:27:13:  设备0: sn=AAABBB018
+ 
+2020-04-21 11:28:10:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-21 11:28:10:  设备0: sn=AAABBB018
+ 
+2020-04-28 08:38:52:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 08:38:52:  设备0: sn=AAABBB018
+ 
+2020-04-28 08:38:53:  设备0: first step
+ 
+2020-04-28 08:38:53:  设备0: loadCode
+ 
+2020-04-28 08:38:53:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 08:38:53:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-28 08:38:53:  device[00]: channel_connect_status:
+	00 01
+2020-04-28 08:38:53:  device[00]: total_valid_ce_count = 1
+2020-04-28 08:38:53:  device[00]: ce = 0, channel=1,
+2020-04-28 08:38:53:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-28 08:38:53:  设备0: auto DetectFlash
+ 
+2020-04-28 08:38:53:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-28 08:38:53:  设备0: initConfig
+ 
+2020-04-28 08:38:53:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 08:38:53:  device[00]: GetAllBadBlockCount 0.
+2020-04-28 08:38:53:  device[00]: gen_firmware ok.
+2020-04-28 08:38:53:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-28 08:38:53:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-28 08:38:53:  设备0: scan_BadBlk
+ 
+2020-04-28 08:38:53:  device[00]: page 1,count 2
+2020-04-28 08:39:02:  device[00]: page 1,count 2
+2020-04-28 08:39:10:  设备0: old badblock table at 4
+ 
+2020-04-28 08:39:10:  设备0: old badblock table at 12
+ 
+2020-04-28 08:39:10:  设备0: factory cnt 2,new cnt 0
+ 
+2020-04-28 08:39:10:  设备0: eraseFlash
+ 
+2020-04-28 08:39:25:  设备0: part_mp 0
+ 
+2020-04-28 08:39:25:  设备0: NORMAL
+ 
+2020-04-28 08:39:25:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 08:39:25:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 08:39:27:  设备0: WriteFw ok
+ 
+2020-04-28 08:39:27:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-28 08:39:27:  设备0: Write first BadBlockTable blk index  8 
+ 
+2020-04-28 08:39:27:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-28 08:39:28:  设备0: loadFw flag=0 
+ 
+2020-04-28 08:39:33:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 08:39:33:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 08:39:39:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 08:39:43:  device[00]: IOCTL_DISK_GET_DRIVE_GEOMETRY 15181425
+2020-04-28 08:39:47:  设备0:  G:\  /fs:fat32,/v:测试盘,media 11,quick 1
+ 
+2020-04-28 08:39:53:  设备0: step 2
+ 
+2020-04-28 08:39:56:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 08:39:56:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 08:39:56:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 08:39:56:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-28 08:39:59:  设备0: SN aaabbb019, len =20.
+ 
+2020-04-28 08:39:59:  设备0: SetSN ok:
+ 
+2020-04-28 08:39:59:  设备0: ooook
+ 
+2020-04-28 08:40:00:  设备0 量产成功。
+2020-04-28 08:45:11:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 08:45:11:  设备0: sn=AAABBB019
+ 
+2020-04-28 08:45:13:  设备0: first step
+ 
+2020-04-28 08:45:13:  设备0: loadCode
+ 
+2020-04-28 08:45:13:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 08:45:13:  设备0 量产失败，错误码（2）。
+2020-04-28 08:45:14:  设备0: first step
+ 
+2020-04-28 08:45:14:  设备0: loadCode
+ 
+2020-04-28 08:45:14:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 08:45:14:  设备0 量产失败，错误码（2）。
+2020-04-28 08:45:15:  设备0: first step
+ 
+2020-04-28 08:45:15:  设备0: loadCode
+ 
+2020-04-28 08:45:15:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 08:45:15:  设备0 量产失败，错误码（2）。
+2020-04-28 08:45:40:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 08:45:40:  设备0: sn=AAABBB019
+ 
+2020-04-28 08:45:41:  设备0: first step
+ 
+2020-04-28 08:45:41:  设备0: loadCode
+ 
+2020-04-28 08:45:55:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 08:45:55:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-28 08:45:55:  device[00]: channel_connect_status:
+	00 01
+2020-04-28 08:45:55:  device[00]: total_valid_ce_count = 1
+2020-04-28 08:45:55:  device[00]: ce = 0, channel=1,
+2020-04-28 08:45:55:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-28 08:45:55:  设备0: auto DetectFlash
+ 
+2020-04-28 08:45:55:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-28 08:45:55:  设备0: initConfig
+ 
+2020-04-28 08:45:55:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 08:45:55:  device[00]: GetAllBadBlockCount 0.
+2020-04-28 08:45:55:  device[00]: gen_firmware ok.
+2020-04-28 08:45:55:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-28 08:45:55:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-28 08:45:55:  设备0: scan_BadBlk
+ 
+2020-04-28 08:45:55:  device[00]: page 1,count 2
+2020-04-28 08:46:03:  device[00]: page 1,count 2
+2020-04-28 08:46:12:  设备0: old badblock table at 4
+ 
+2020-04-28 08:46:12:  设备0: old badblock table at 8
+ 
+2020-04-28 08:46:12:  设备0: factory cnt 2,new cnt 0
+ 
+2020-04-28 08:46:12:  设备0: eraseFlash
+ 
+2020-04-28 08:46:27:  设备0: part_mp 0
+ 
+2020-04-28 08:46:27:  设备0: NORMAL
+ 
+2020-04-28 08:46:27:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 08:46:27:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 08:46:30:  设备0: WriteFw ok
+ 
+2020-04-28 08:46:30:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-28 08:46:30:  设备0: Write first BadBlockTable blk index  12 
+ 
+2020-04-28 08:46:30:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-28 08:46:30:  设备0: loadFw flag=0 
+ 
+2020-04-28 08:46:35:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 08:46:35:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 08:46:42:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 08:46:46:  device[00]: IOCTL_DISK_GET_DRIVE_GEOMETRY 15181425
+2020-04-28 08:46:49:  设备0:  G:\  /fs:fat32,/v:测试盘,media 11,quick 1
+ 
+2020-04-28 08:46:55:  设备0: step 2
+ 
+2020-04-28 08:46:58:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 08:46:58:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 08:46:58:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 08:46:58:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-28 08:47:01:  设备0: SN aaabbb020, len =20.
+ 
+2020-04-28 08:47:01:  设备0: SetSN ok:
+ 
+2020-04-28 08:47:01:  设备0: ooook
+ 
+2020-04-28 08:47:01:  设备0 量产成功。
+2020-04-28 08:49:08:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 08:49:08:  设备0: sn=AAABBB020
+ 
+2020-04-28 09:25:52:  device[00]: found devpath = \\.\PHYSICALDRIVE2
+2020-04-28 09:25:52:  设备0: sn=AAABBB020
+ 
+2020-04-28 09:25:53:  设备0: first step
+ 
+2020-04-28 09:25:53:  设备0: loadCode
+ 
+2020-04-28 09:25:54:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 09:25:54:  设备0 量产失败，错误码（2）。
+2020-04-28 09:26:24:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 09:26:24:  设备0: sn=AAABBB020
+ 
+2020-04-28 09:26:26:  设备0: first step
+ 
+2020-04-28 09:26:26:  设备0: loadCode
+ 
+2020-04-28 09:26:34:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 09:26:34:  设备0 量产失败，错误码（2）。
+2020-04-28 09:26:53:  设备0: first step
+ 
+2020-04-28 09:26:53:  设备0: loadCode
+ 
+2020-04-28 09:26:55:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 09:26:55:  设备0 量产失败，错误码（2）。
+2020-04-28 09:27:00:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 09:27:00:  设备0: sn=AAABBB020
+ 
+2020-04-28 09:27:02:  设备0: first step
+ 
+2020-04-28 09:27:02:  设备0: loadCode
+ 
+2020-04-28 09:27:05:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 09:27:05:  设备0 量产失败，错误码（2）。
+2020-04-28 09:27:09:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 09:27:09:  设备0: sn=AAABBB020
+ 
+2020-04-28 09:27:11:  设备0: first step
+ 
+2020-04-28 09:27:11:  设备0: loadCode
+ 
+2020-04-28 09:27:11:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 09:27:11:  设备0: doEraseFW
+ 
+2020-04-28 09:27:13:  设备0: ooook
+ 
+2020-04-28 09:27:13:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-04-28 09:27:15:  设备0 量产成功。
+2020-04-28 09:27:18:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 09:27:18:  device[00]: ScsiStatus:02h
+2020-04-28 09:27:18:  设备0: sn=AAABBB020
+ 
+2020-04-28 09:27:18:  设备0: first step
+ 
+2020-04-28 09:27:18:  设备0: loadCode
+ 
+2020-04-28 09:27:19:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 09:27:19:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-28 09:27:19:  device[00]: channel_connect_status:
+	00 01
+2020-04-28 09:27:19:  device[00]: total_valid_ce_count = 1
+2020-04-28 09:27:19:  device[00]: ce = 0, channel=1,
+2020-04-28 09:27:19:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-28 09:27:19:  设备0: auto DetectFlash
+ 
+2020-04-28 09:27:19:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-28 09:27:19:  设备0: initConfig
+ 
+2020-04-28 09:27:19:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 09:27:19:  device[00]: GetAllBadBlockCount 0.
+2020-04-28 09:27:19:  device[00]: gen_firmware ok.
+2020-04-28 09:27:19:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-28 09:27:19:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-28 09:27:19:  设备0: scan_BadBlk
+ 
+2020-04-28 09:27:19:  device[00]: page 1,count 2
+2020-04-28 09:27:27:  device[00]: page 1,count 2
+2020-04-28 09:27:35:  设备0: old badblock table at 4
+ 
+2020-04-28 09:27:35:  设备0: old badblock table at 12
+ 
+2020-04-28 09:27:35:  设备0: factory cnt 2,new cnt 0
+ 
+2020-04-28 09:27:35:  设备0: eraseFlash
+ 
+2020-04-28 09:27:49:  设备0: part_mp 0
+ 
+2020-04-28 09:27:49:  设备0: NORMAL
+ 
+2020-04-28 09:27:49:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 09:27:49:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 09:27:52:  设备0: WriteFw ok
+ 
+2020-04-28 09:27:52:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-28 09:27:52:  设备0: Write first BadBlockTable blk index  8 
+ 
+2020-04-28 09:27:52:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-28 09:27:52:  设备0: loadFw flag=0 
+ 
+2020-04-28 09:27:57:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 09:27:57:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 09:28:03:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 09:28:07:  device[00]: IOCTL_DISK_GET_DRIVE_GEOMETRY 15181425
+2020-04-28 09:28:11:  设备0:  G:\  /fs:fat32,/v:测试盘,media 11,quick 1
+ 
+2020-04-28 09:28:17:  设备0: step 2
+ 
+2020-04-28 09:28:20:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 09:28:20:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 09:28:20:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 09:28:20:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-28 09:28:24:  设备0: SN aaabbb021, len =20.
+ 
+2020-04-28 09:28:24:  设备0: SetSN ok:
+ 
+2020-04-28 09:28:24:  设备0: ooook
+ 
+2020-04-28 09:28:24:  设备0 量产成功。
+2020-04-28 09:29:10:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 09:29:10:  设备0: sn=AAABBB021
+ 
+2020-04-28 10:14:07:  device[00]: found devpath = \\.\PHYSICALDRIVE2
+2020-04-28 10:14:07:  设备0: sn=AAABBB021
+ 
+2020-04-28 10:14:09:  设备0: first step
+ 
+2020-04-28 10:14:09:  设备0: loadCode
+ 
+2020-04-28 10:14:09:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 10:14:09:  设备0 量产失败，错误码（2）。
+2020-04-28 10:14:13:  device[00]: found devpath = \\.\PHYSICALDRIVE2
+2020-04-28 10:14:13:  设备0: sn=AAABBB021
+ 
+2020-04-28 10:14:36:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 10:14:36:  设备0: sn=AAABBB021
+ 
+2020-04-28 10:15:06:  设备0: first step
+ 
+2020-04-28 10:15:06:  设备0: loadCode
+ 
+2020-04-28 10:15:06:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 10:15:06:  设备0 量产失败，错误码（2）。
+2020-04-28 10:15:07:  设备0: first step
+ 
+2020-04-28 10:15:07:  设备0: loadCode
+ 
+2020-04-28 10:15:07:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 10:15:07:  设备0 量产失败，错误码（2）。
+2020-04-28 10:15:13:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 10:15:14:  设备0: sn=AAABBB021
+ 
+2020-04-28 10:15:18:  设备0: first step
+ 
+2020-04-28 10:15:18:  设备0: loadCode
+ 
+2020-04-28 10:15:18:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 10:15:18:  设备0 量产失败，错误码（2）。
+2020-04-28 10:15:19:  设备0: first step
+ 
+2020-04-28 10:15:19:  设备0: loadCode
+ 
+2020-04-28 10:15:19:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 10:15:19:  设备0 量产失败，错误码（2）。
+2020-04-28 10:15:22:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 10:15:22:  设备0: sn=AAABBB021
+ 
+2020-04-28 10:15:23:  设备0: first step
+ 
+2020-04-28 10:15:23:  设备0: loadCode
+ 
+2020-04-28 10:15:23:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 10:15:23:  设备0 量产失败，错误码（2）。
+2020-04-28 10:15:48:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 10:15:48:  设备0: sn=AAABBB021
+ 
+2020-04-28 10:15:50:  设备0: first step
+ 
+2020-04-28 10:15:50:  设备0: loadCode
+ 
+2020-04-28 10:16:03:  device[00]: FSCTL_LOCK_VOLUME fail
+2020-04-28 10:16:03:  设备0 量产失败，错误码（2）。
+2020-04-28 10:16:07:  设备0: first step
+ 
+2020-04-28 10:16:07:  设备0: loadCode
+ 
+2020-04-28 10:16:07:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 10:16:07:  设备0: doEraseFW
+ 
+2020-04-28 10:16:09:  设备0: ooook
+ 
+2020-04-28 10:16:09:  设备0: FlushFileBuffers failed  0 errcode 1
+ 
+2020-04-28 10:16:12:  设备0 量产成功。
+2020-04-28 10:16:31:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 10:16:31:  device[00]: ScsiStatus:02h
+2020-04-28 10:16:31:  设备0: sn=6&672C205&0&4
+ 
+2020-04-28 10:16:33:  设备0: first step
+ 
+2020-04-28 10:16:33:  设备0: loadCode
+ 
+2020-04-28 10:16:50:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 10:16:50:  device[00]: DetectFlash mptool_command_status_t:	true
+2020-04-28 10:16:50:  device[00]: channel_connect_status:
+	00 01
+2020-04-28 10:16:50:  device[00]: total_valid_ce_count = 1
+2020-04-28 10:16:50:  device[00]: ce = 0, channel=1,
+2020-04-28 10:16:50:  device[00]: flash_type = MICRON-MT29F64G08CBAAAWP 
+2020-04-28 10:16:50:  设备0: auto DetectFlash
+ 
+2020-04-28 10:16:50:  设备0: flash id = MICRON-MT29F64G08CBAAAWP 
+ 
+2020-04-28 10:16:50:  设备0: initConfig
+ 
+2020-04-28 10:16:50:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 10:16:50:  device[00]: GetAllBadBlockCount 0.
+2020-04-28 10:16:50:  device[00]: gen_firmware ok.
+2020-04-28 10:16:50:  device[00]: m_flash_total_valid_ce_cnt 1,  m_flash_lun_num 1, m_flash_plane_num 2, m_flash_blocks_per_plane 2048.
+2020-04-28 10:16:50:  device[00]: m_block_cnt_contain_badblock 4096.
+2020-04-28 10:16:50:  设备0: scan_BadBlk
+ 
+2020-04-28 10:16:50:  device[00]: page 1,count 2
+2020-04-28 10:16:59:  device[00]: page 1,count 2
+2020-04-28 10:17:07:  设备0: old badblock table at 4
+ 
+2020-04-28 10:17:07:  设备0: old badblock table at 8
+ 
+2020-04-28 10:17:07:  设备0: factory cnt 2,new cnt 0
+ 
+2020-04-28 10:17:07:  设备0: eraseFlash
+ 
+2020-04-28 10:17:22:  设备0: part_mp 0
+ 
+2020-04-28 10:17:22:  设备0: NORMAL
+ 
+2020-04-28 10:17:22:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 10:17:22:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 10:17:24:  设备0: WriteFw ok
+ 
+2020-04-28 10:17:24:  设备0: WriteBadBlockTable cnt 2 
+ 
+2020-04-28 10:17:24:  设备0: Write first BadBlockTable blk index  12 
+ 
+2020-04-28 10:17:24:  设备0: WriteBadBlockTable blk index  4 
+ 
+2020-04-28 10:17:24:  设备0: loadFw flag=0 
+ 
+2020-04-28 10:17:29:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 10:17:29:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 10:17:36:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 10:17:40:  device[00]: IOCTL_DISK_GET_DRIVE_GEOMETRY 15181425
+2020-04-28 10:17:43:  设备0:  G:\  /fs:fat32,/v:测试盘,media 11,quick 1
+ 
+2020-04-28 10:17:49:  设备0: step 2
+ 
+2020-04-28 10:17:52:  设备0: firmware path is E:\project\python_gpt\phsion_test_tool\mptool\binary\fw_micron_aes_HX6802_platform_All_Flash_test_group_2020_04_21_01.bin.
+ 
+2020-04-28 10:17:52:  device[00]: FSCTL_DISMOUNT_VOLUME ok
+2020-04-28 10:17:52:  device[00]: GetAllBadBlockCount 2.
+2020-04-28 10:17:52:  设备0: SetPartitionTable ok: block index  
+ 
+2020-04-28 10:17:55:  设备0: SN aaabbb022, len =20.
+ 
+2020-04-28 10:17:55:  设备0: SetSN ok:
+ 
+2020-04-28 10:17:55:  设备0: ooook
+ 
+2020-04-28 10:17:55:  设备0 量产成功。
+2020-04-28 10:18:29:  device[00]: found devpath = \\.\PHYSICALDRIVE1
+2020-04-28 10:18:29:  设备0: sn=AAABBB022
+ 

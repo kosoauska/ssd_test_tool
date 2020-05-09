@@ -1,0 +1,5 @@
+serial:SMXTL7BN2RXA10002   
+firmware:S0424A0 
+module:SMXTL7BN-256G                           
+L:     
+sataType:SATA/300|SATA/600      

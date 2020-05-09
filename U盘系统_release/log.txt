@@ -1,0 +1,4 @@
+dev id:scs111        serial:1B0607930F0806909366
+dev id:scs111        serial:1B0607930F0806909366
+dev id:scccc1111        serial:1B0607930F0806909366
+dev id:scccc11121        serial:1B0607930F0806909366
