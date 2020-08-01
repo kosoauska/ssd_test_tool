@@ -26,6 +26,7 @@ setup_file_name = "setup.inf"
 sata_file_name = "sata.txt"
 hdtune_scan_name = "scan.txt"
 hdtune_health_name = "health.txt"
+hdtune_info_name = "info.txt"
 log_result_file = "test_disk_cnt.txt"
 reverse_file_name = ["setup.inf", "sata.txt", "scan.txt", "health.txt", "test_disk_cnt.txt",
                      "clean.txt", "disk.txt", "health.txt", "phsion_disk_check.py", "phsion_setup.py",
@@ -38,7 +39,7 @@ sata_tital = ["serial", "firmware", "module" , "sataType"]
 # add sata test error: sata_error_msg = [XXXX , XXXX, XXXX ,XXXX]
 sata_error_msg = [u'序列号错误', u'固件版本错误', u'厂商信息错误' , u'SATA3不识别']
 # add hdtune test item here: hd_tital = [XXXX , XXXX, XXXX ,XXXX]
-hd_tital = [u"损坏块", u"健康状态", u"HD Tune Pro:"]
+hd_tital = [u"损坏块", u"健康状态", u"Capacity"]
 # add hdtune test standard: sata_error_msg = [XXXX , XXXX, XXXX ,XXXX]
 hd_stand = [u"0.0%", u"正常"]
 tital_cnt = len(disk_tital)
@@ -169,6 +170,7 @@ def sata_test_error(error_offset):
 def hdtune_test(disk_letter):
     # HDTunePro
     health_cmd = "HDTunePro.exe " + "/DISK:" + disk_letter + " /FUNCTION:Health  /START  /LOG:health.txt "
+    disk_info_cmd = "HDTunePro.exe " + "/DISK:" + disk_letter + " /FUNCTION:info  /START  /LOG:info.txt "
     scan_cmd = "HDTunePro.exe " + "/DISK:" + disk_letter + "/FUNCTION:Errorscan /QUICKSCAN /START /LOG:scan.txt /QUIT"
     # bad block check
     r = os.system(scan_cmd)
@@ -177,7 +179,7 @@ def hdtune_test(disk_letter):
     time.sleep(1)
     # read bad block
     with open(hdtune_scan_name, "r+") as handler:
-        lines = handler.readlines();
+        lines = handler.readlines()
         if(len(lines) < 1):
             tkMessageBox.showinfo(title='scan ', message=u'无任何数据')
             handler.seek(0)
@@ -196,14 +198,40 @@ def hdtune_test(disk_letter):
                     handler.seek(0)
                     handler.truncate()
                     os._exit(0)
+        os.system("pskill.exe HDTunePro.exe")
         handler.seek(0)
         handler.truncate()
+    # read capacity
+    r = os.popen(disk_info_cmd)
+    time.sleep(2)
+    if (hd_test_debug == 1):
+        print(disk_info_cmd)
+    disk_cap = disk_stand[search_item("capacity" , disk_tital)]
+    with open(hdtune_info_name , "r+") as handler:
+        lines = handler.readlines();
+        if (len(lines) < 1):
+            tkMessageBox.showinfo(title='capacity', message=u'无任何数据')
+            handler.seek(0)
+            handler.truncate()
+            os._exit(0)
+        for read_line in lines:
+            read_line = read_line.decode("gb2312")
+            if (disk_cap != u'0GB'):
+                if (read_line.find(hd_tital[2]) != -1):
+                    header, status = split_string(read_line, u':')
+                    status = status.split(u'.');
+                    if (hd_test_debug == 1):
+                        print("header = %s , satus = %s " % (header, status))
+                    if status[0].find(disk_cap) == -1:
+                        tkMessageBox.showinfo(title='capacity', message=u'容量不一致错误')
+                        handler.seek(0)
+                        handler.truncate()
+                        os._exit(0)
+    os.system("pskill.exe HDTunePro.exe")
+
     # health check
     r = os.popen(health_cmd)
     time.sleep(2)
-    if (hd_test_debug == 1):
-        print(health_cmd)
-    disk_cap = disk_stand[search_item("capacity", disk_tital)]
     with open(hdtune_health_name, "r+") as handler:
         lines = handler.readlines();
         if(len(lines) < 1):
@@ -213,19 +241,7 @@ def hdtune_test(disk_letter):
             os._exit(0)
         for read_line in lines:
             read_line = read_line.decode("gb2312")
-            if(disk_cap != u'0GB'):
-                if (read_line.find(hd_tital[2]) != -1) :
-                    header, status = split_string(read_line, u':')
-                    status = status.split();
-                    if (hd_test_debug == 1):
-                        print("header = %s , satus = %s " % (header, status))
-                    if status[0].find(disk_cap) == -1:
-                    #if cmp(disk_cap, status[0]) != 0:
-                        tkMessageBox.showinfo(title='capacity ', message=u'容量不一致错误')
-                        handler.seek(0)
-                        handler.truncate()
-                        os._exit(0)
-            elif (read_line.find(hd_tital[1]) != -1):
+            if (read_line.find(hd_tital[1]) != -1):
                 header, status = split_string(read_line, u':')
                 header, status = formate_item_str(header, status)
                 item_offset = search_item(hd_tital[1], hd_tital)
@@ -236,13 +252,11 @@ def hdtune_test(disk_letter):
                     handler.seek(0)
                     handler.truncate()
                     os._exit(0)
-            if (read_line.find("attention") != -1):
-                tkMessageBox.showinfo(title='health ', message=read_line)
-                break
+                else:
+                    break
         handler.seek(0)
         handler.truncate()
     os.system("pskill.exe HDTunePro.exe")
-
 
 # *********************************log test result***************************************************************
 def log_test_result(log_enable, log_file, disk_no, dev_serial):

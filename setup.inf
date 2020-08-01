@@ -1,9 +1,9 @@
-disknum  # 0
-serial   # SMXTL7BN2RXA10002         
-firmware # S0424A0
-module   # SMXTL7BN-256G
-sataType # SATA/600|SATA/600    
+disknum  # 2
+serial   # SCSSPSL7BN128GRBB010
+firmware # 20070701
+module   # SATA SSD
+sataType # SATA/300|SATA/600    
 letter   # L
-diskpart # X
+diskpart # C
 hdtest   # 1 
-capacity # 256
+capacity # 128
